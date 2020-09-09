@@ -1,0 +1,59 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Roboto Slab', monospace;
+}
+
+.title {
+  margin-top: -75px;
+  display: flex;
+  font-family: 'Staatliches', 'Roboto Mono', monospace;
+  font-size: 60px;
+  letter-spacing: 5px;
+  text-shadow: 10px 10px 0px rgba(0, 0, 0, 0.253);
+  cursor: default;
+}
+
+.name {
+  padding-right: 25px;
+}
+
+.hover:hover {
+  text-shadow: 5px 5px 0px rgba(0, 0, 0, 0.253);
+  -webkit-text-stroke: 0.01px rgb(4, 116, 136);
+  -webkit-text-fill-color: transparent;
+}
+
+.class {
+  font-size: 30px;
+  transition: all 0.5s;
+  cursor: default;
+}
+
+.class:hover {
+  transform: translateY(-20px);
+}
+
+.description {
+  font-size: 20px;
+}
+
+.description-bold {
+  font-weight: 700;
+}
+
+.description-color {
+  color: teal;
+}
+
+.perro {
+  border-radius: 200px;
+  transition: all 0.7s;
+  margin-top: -30px;
+}
+
+.perro:hover {
+  filter: brightness(30%);
+  transform: scale(4);
+}
